@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(40, 146, 216);
+    color: rgb(181, 36, 130);
+}
+.links{
+    display: flex;
+    list-style-type: none;
+
+}
+.a-tag{
+    text-decoration: none;
+    margin-right: 15px;
+    color: rgba(11, 11, 11, 0.878);
+}
+.holder{
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    border-color: rgb(59, 57, 57);
+}
+.login-btn{
+    padding: 10px;
+    outline: none;
+    border-radius:10px ;
+    margin-top: 10px;
+}
+.login-info{
+   display: flex;
+   flex-direction: column;
+   width: 20%;
+   margin-left: 10px;
+}
